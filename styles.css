@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/**** reusable ****/
+.row {
+  width: 1140px;
+  margin: 0px auto;
+}
+
+
+/***** Header *****/
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/Coffee.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 2px;
+  word-spacing: 1.5px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  color: #E1E1E1;
+  text-decoration: none;
+  font-size: 30px;
+  border: 1px solid #B2926D;
+  border-radius: 35px;
+  padding: 10px 30px;
+  letter-spacing: 1.5px;
+  margin-top: 15px;
+  margin-left: -2px; 
+}
+
+.btn:hover {
+  color: #fff;
+}
+.btn:active {
+  background: transparent;
+}
+
+.btn-full {
+  background: #B2926D;
+  font-weight: bold;
+}
+.btn-full:active {
+  transition: background 0.2s;
+}
+
+.btn-empty {
+  margin-left: 15px;
+}

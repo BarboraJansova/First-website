@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/**** reusable ****/
+.row {
+  width: 1140px;
+  margin: 0px auto;
+}
+
+
+/***** Header *****/
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/Coffee.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+#Logo {
+  width: 100%;
+}
+
+#Logo img {
+  width: 180px;
+  position: absolute;
+  top: 70px;
+  left: 189px;
+}
+
+
+.box {
+  width: 400px;
+  height: 530px;
+  background: transparent;
+  border: 2px solid #705F55;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  width: 500px;
+  text-align: center;
+  background: transparent;
+  border-radius: 20px;
+  padding: 30px 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form input {
+  color: #E1E1E1;
+  width: 60%;
+  border-radius: 15px;
+  padding: 10px 5px;
+  margin-top: 10px;
+  background: transparent;
+}
+
+
+.form textarea {
+  color: #E1E1E1;
+  width: 60%;
+  border-radius: 15px;
+  padding: 10px 5px;
+  margin-top: 10px;
+  background: transparent;
+}
+
+.form input::placeholder {
+  color: #E1E1E1;
+  opacity: 80%;
+}
+
+.form textarea::placeholder {
+  color: #E1E1E1;
+  opacity: 80%;
+}
+
+#btn {
+  color: #000;
+  background: #E1E1E1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 600px;
+}
